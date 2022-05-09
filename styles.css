@@ -1,0 +1,86 @@
+
+
+
+#landing{
+    background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(221, 201, 201, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/Styles/wallpaperrrrrr.jpg);
+  background-size :cover;
+  background-attachment: fixed;
+}
+/* .img{
+    width: 55px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    position:relative;
+    margin: auto;
+  float: left;
+} */
+
+.navbar{
+    font-size: 30px;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    transition: 5s ease-out;
+    z-index: 5;
+}
+#navbarNavAltMarkup{
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+
+}
+.container{
+
+
+}
+
+#container-index{
+  margin-left: 10%;
+  margin-top: 300px;
+  width: 80%;
+  height: 50%;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: aliceblue;
+}
+
+#pfp{
+  
+  object-fit: contain;
+  width: 500px;
+  height: 355px;
+  border-radius: 8px;
+ 
+}
+
+#AAA{
+  background: 
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/Styles/wallpaperrrrrr2.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.header2{
+    margin-left: 38%;
+    top: 15%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 60px;
+    text-decoration: underline;
+    color: ghostwhite;
+
+}
