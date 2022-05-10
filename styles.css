@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 
 
 
@@ -21,50 +26,25 @@
   float: left;
 } */
 
-.navbar{
-    font-size: 30px;
-    display: flex;
-    align-items: right;
-    justify-content: flex-end;
-    margin: 0;
-    width: 100%;
-    position: fixed;
-    background-color: black;
-    color: white;
-    transition: 5s ease-out;
-    z-index: 5;
-}
 
-.navbar:hover{
-  background-color: aqua;
-}
-#navbarNavAltMarkup{
-    display: flex;
-    align-items: right;
-    justify-content: flex-end;
-
-}
-.container{
-
-
-}
 
 #container-index{
   margin-left: 10%;
-  margin-top: 400px;
+  margin-top: 289px;
   width: 80%;
   height: 60%;
   border-radius: 35px;
   box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 80px 0 rgba(0, 0, 0, 0.19);
   color: aliceblue;
   background-color: white;
+  font-size: 25px;
 }
 
 #pfp{
   
-  object-fit: contain;
-  width: 500px;
-  height: 380px;
+  object-fit:cover ;
+  width: 700px;
+  height: 400px;
   
   border-radius: 8px;
  
@@ -81,13 +61,25 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+#testi{
+  background: 
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/Styles/wallpapperrrrrr3.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
 .header2{
     margin-left: 38%;
     top: 15%;
     font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 60px;
+    font-size: 80px;
     text-decoration: underline;
     color: ghostwhite;
+    text-shadow: 2px 2px red;
 
 }
 
@@ -126,11 +118,42 @@ background-attachment: fixed;
       rgba(221, 201, 201, 0.45),
       rgba(0, 0, 0, 0.45)
     ),
-    /* bottom, image */ url(/Styles/wallpapperrrrrr3.jpg);
+    /* bottom, image */ url(/Styles/227-2279744_dirty-sprite-wallpaper.jpg);
   background-size :cover;
   background-attachment: fixed;
 }
 
 #MK3{
-  font-size: 78px;
+  font-size: 88px;
+  text-shadow: 2px 2px red;
 }
+
+#abtmep{
+  text-align: center;
+  color: white;
+}
+
+
+
+#iconz{
+  size-adjust: 50px;
+  width: 90px;
+  height: 82px;
+  float: right;
+}
+
+.projects-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.projects-container img{
+  flex-grow: 1;
+  /* max-width: 300px; */
+  max-height:400px ;
+  object-fit: cover;
+
+}
+
